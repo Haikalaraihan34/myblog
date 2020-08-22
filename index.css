@@ -1,0 +1,89 @@
+.body{
+    background: black;
+    margin: 0px;
+}
+
+.nav-container{
+
+        height: 100px;
+        display: flex;
+        flex-flow: row;
+        background: white;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding-bottom: 0px;
+        font-family: 'Alata', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+.header{
+    background:  #490505;;
+    font-display: white;
+    margin: 0px;
+    border: white dashed;
+    margin: auto;
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+.login-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    margin: 0px;
+}
+
+.login-container>h2{
+    margin: 0px;
+}
+
+.header>h2{
+    justify-content: flex-end;
+}
+
+@media (min-width: 800px){}
+.container {
+    width: 800px;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    border:white dotted;
+}
+
+
+.title-text{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-align: center;
+    box-sizing: border-box;
+    margin: .67em 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    justify-content: center;                                                  
+}
+
+.text-center>summary{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.list-inline{
+    display: flex
+}
